@@ -7,6 +7,15 @@ As shown in Figure 1, we created image patches from the full image to enlarge th
 ![image](https://github.com/Computational-Plant-Science/Drone-Based-Fusarium-Wilt-Detection-in-Lettuce-Using-RGB-Imagery/assets/133724174/6dc7a528-2b7b-4fe0-83f2-51a5aac8284f)
 Data Collection Timeline 
 
-Nine weeks of data were collected over a two-month period at the Yuma Agricultural Center. During the first week, data was collected twice. No data was collected in the 7th week due to some reasons. In total, 7,257 RGB images were collected for analysis.
+Nine weeks of data were collected over a two-month period at the Yuma Agricultural Center. During the first week, data was collected twice. No data was collected in the 7th week due to some reasons. In total, 7,257 RGB images were collected for analysis. 
+
+# How to Run the script:
+Run the fusarium_detection_Tan_intensity.py, and it will automatically load a test image, and detect potential fusarium with boundary box. 
+
+# Performance:
+We evaluated our technique with 10 image patches, containing a total of 68 Fusarium instances. The model detected 63 Fusarium instances, while 5 were missed. Overall, our approach achieves a high precision rate of 92.65% for almost all types of Fusarium, except for a few serious Fusarium cases due to their resemblance to soil color. Excluding serious Fusarium, the precision rate was over 99%.
+However, the model also detected 40 instances of non-Fusarium due to their high-intensity lettuce. The model's false positive rate for non-Fusarium instances is quite high, indicating a need for improvement. Our next goal is to integrate a deep learning model, such as ResNet or YOLO, to reduce false positives and improve the overall accuracy of the detection method. Additionally, we will evaluate the severity of Fusarium infections, ensuring comprehensive disease management strategies.
+
+
 
 
