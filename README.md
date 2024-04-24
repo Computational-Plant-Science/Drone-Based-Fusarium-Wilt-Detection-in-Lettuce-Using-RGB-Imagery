@@ -4,5 +4,9 @@ To address these challenges, this study proposes a novel drone-based technique f
 As shown in Figure 1, we created image patches from the full image to enlarge the images for detailed evaluation of each pixel, enabling precise analysis of Fusarium wilt symptoms. We then assess the light Tan intensity within these patches, as it provides a reliable measure for distinguishing Fusarium wilt-infected areas from non-infected ones. Subsequently, we use contour detection to identify Fusarium-infected regions, followed by a mosaicking technique to reconstruct the stretched image from the patches.
 
 # Data Collection:
+![image](https://github.com/Computational-Plant-Science/Drone-Based-Fusarium-Wilt-Detection-in-Lettuce-Using-RGB-Imagery/assets/133724174/6dc7a528-2b7b-4fe0-83f2-51a5aac8284f)
+Data Collection Timeline 
+
 Nine weeks of data were collected over a two-month period at the Yuma Agricultural Center. During the first week, data was collected twice. No data was collected in the 7th week due to some reasons. In total, 7,257 RGB images were collected for analysis.
+
 
