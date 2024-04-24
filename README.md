@@ -26,6 +26,7 @@ Fig 4. Experimental results
 We evaluated our technique with 10 image patches, containing a total of 68 Fusarium instances. The model detected 63 Fusarium instances, while 5 were missed. Overall, our approach achieves a high precision rate of 92.65% for almost all types of Fusarium, except for a few serious Fusarium cases due to their resemblance to soil color. Excluding serious Fusarium, the precision rate was over 99%.
 However, the model also detected 40 instances of non-Fusarium due to their high-intensity lettuce. The model's false positive rate for non-Fusarium instances is quite high, indicating a need for improvement. Our next goal is to integrate a deep learning model, such as ResNet or YOLO, to reduce false positives and improve the overall accuracy of the detection method. Additionally, we will evaluate the severity of Fusarium infections, ensuring comprehensive disease management strategies.
 
-
+# Author
+Kabir Hossain (kabircnu@gmail.com)
 
 
