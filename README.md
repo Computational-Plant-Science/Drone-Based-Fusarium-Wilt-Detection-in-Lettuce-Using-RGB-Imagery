@@ -1,6 +1,6 @@
 ![image](https://github.com/Computational-Plant-Science/Drone-Based-Fusarium-Wilt-Detection-in-Lettuce-Using-RGB-Imagery/assets/133724174/80016099-0c55-454c-a377-3927c19bd8d1)
 
-Fig 1. Example of lettuce image, (a) Image capture by a drone at Yuma agricultural (Size: 3000 x 4000) (b) Fusarium affected lettuce (Source internet) 
+Fig 1. Example of lettuce image, (a) Image capture by a drone at Yuma agricultural center (Image Size: 3000 x 4000) (b) Fusarium affected lettuce (Source internet) 
 
 # Introduction:
 Lettuce cultivation faces significant challenges from Fusarium wilt, a fungal disease that can cause considerable damage to crops. This problem is exacerbated by factors such as climate change and declining pollinator populations. Traditional methods for identifying Fusarium wilt, such as manual inspection or handheld devices, are time-consuming and often inefficient, leading to delays in disease detection and management.
