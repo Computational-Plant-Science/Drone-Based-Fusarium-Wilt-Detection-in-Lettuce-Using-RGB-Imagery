@@ -17,8 +17,8 @@ Fig 3. Data Collection Timeline
 Nine weeks of data were collected over a two-month period at the Yuma Agricultural Center. During the first week, data was collected twice. No data was collected in the 7th week due to some reasons. In total, 7,257 RGB images were collected for analysis. 
 
 # How to Run the script:
-Run the fusarium_detection_Tan_intensity.py, and it will automatically load a test image, and detect potential fusarium with boundary box. 
-
+Run the fusarium_detection_Tan_intensity.py, and it will automatically load a test image, and detect potential fusarium with boundary box. The input image is a patches with a 
+size of 300 x 300. 
 
 ![image](https://github.com/Computational-Plant-Science/Drone-Based-Fusarium-Wilt-Detection-in-Lettuce-Using-RGB-Imagery/assets/133724174/23d00252-a596-4d82-b448-197211d4108f)
 Fig 4. Experimental results 
