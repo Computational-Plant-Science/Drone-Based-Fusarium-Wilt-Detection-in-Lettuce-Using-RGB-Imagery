@@ -18,7 +18,7 @@ Nine weeks of data were collected over a two-month period at the Yuma Agricultur
 
 # How to Run the script:
 Run the fusarium_detection.py, and it will automatically load a test image, and detect potential fusarium with boundary box. The input image is a patches with a 
-size of 300 x 300. 
+size of 300 x 300. The original image size was 3000 x 4000. Firstly, tiles were created with a size of 300 x 300. The code for creating tiles and mosaicking them back to the original image is uploaded to Git separately, here is the link: https://github.com/Computational-Plant-Science/Image-Mosaicking-Tiling-Python-Toolkit 
 
 ![image](https://github.com/Computational-Plant-Science/Drone-Based-Fusarium-Wilt-Detection-in-Lettuce-Using-RGB-Imagery/assets/133724174/23d00252-a596-4d82-b448-197211d4108f)
 Fig 4. Experimental results 
